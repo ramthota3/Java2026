@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        String studentName = "Ram";
 //        int studentId = 3;
 //        int studentAge = 27;
@@ -15,7 +15,7 @@ public class Main {
 //        System.out.println("Student grade:"+ studentGrade);
 //        System.out.println("Student grades:"+ studentGrades);
 
-
+//   ARTHIMETIC OPERATORS
 //        int a = 4;
 //        int b = 6;
 //
@@ -25,14 +25,48 @@ public class Main {
 //        System.out.println("Division: "+ (a/b));
 //        System.out.println("modulus: "+ (a%b));
 
-        int a = 11;
-        int b = 5;
-        System.out.println("a < b: " + (a < b));
-        System.out.println("a > b: " + (a > b));
-        System.out.println("a <= b: " + (a <= b));
-        System.out.println("a >= b:" + (a >= b));
-        System.out.println("a == b:" + (a == b));
-        System.out.println("a != b:" + (a != b));
+
+        //  RELATIONAL OPERATORS
+
+//        int a = 11;
+//        int b = 5;
+//
+//        System.out.println("a < b: " + (a < b));
+//        System.out.println("a > b: " + (a > b));
+//        System.out.println("a <= b: " + (a <= b));
+//        System.out.println("a >= b:" + (a >= b));
+//        System.out.println("a == b:" + (a == b));
+//        System.out.println("a != b:" + (a != b));
+
+
+//   LOGICAL OPERATORS
+
+//        boolean a = true;
+//        boolean b = false;
+//
+//        System.out.println("a && b  :" + (a && b));
+//        System.out.println("a || b  :" + (a || b));
+//        System.out.println("!a :" + (!a));
+
+
+//  TERNARY OPERATOR
+
+//        int a = 15;
+//        int b = 25;
+//
+//        int max = (a > b) ? a : b;
+//        System.out.println("Maximum value is: " + max);
+
+
+ //  calculating the interest
+
+      int principalAmount = 500000;
+
+      double rateOfInterest = 3;
+      double tenure = 3;
+
+      double simpleInterest = (principalAmount * rateOfInterest * tenure) / 100;
+      System.out.println(" Simple Interest :" + simpleInterest);
 
     }
 }
