@@ -26,7 +26,8 @@ public class Main {
 //        System.out.println("modulus: "+ (a%b));
 
 
-        //  RELATIONAL OPERATORS
+
+//  RELATIONAL OPERATORS
 
 //        int a = 11;
 //        int b = 5;
@@ -58,15 +59,33 @@ public class Main {
 //        System.out.println("Maximum value is: " + max);
 
 
- //  calculating the interest
+//        calculating the interest
 
-      int principalAmount = 500000;
+//      int principalAmount = 500000;
+//
+//      double rateOfInterest = 3;
+//      double tenure = 3;
+//
+//      double simpleInterest = (principalAmount * rateOfInterest * tenure) / 100;
+//      System.out.println(" Simple Interest :" + simpleInterest);
 
-      double rateOfInterest = 3;
-      double tenure = 3;
 
-      double simpleInterest = (principalAmount * rateOfInterest * tenure) / 100;
-      System.out.println(" Simple Interest :" + simpleInterest);
 
+// compound interest
+
+
+        int principalAmount = 300000;
+
+        double rateOfInterest = 0.08;
+
+        int tenure = 5;
+
+        int n = 12;
+
+        double amount = principalAmount * Math.pow(1+(rateOfInterest/n),n*tenure);
+        double interest = amount - principalAmount;
+
+        System.out.println("Compound Interest after " + tenure + "years:" + interest);
+        System.out.println("Total Amount:" + amount );
     }
-}
+    }
