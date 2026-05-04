@@ -74,18 +74,80 @@ public class Main {
 // compound interest
 
 
-        int principalAmount = 300000;
+//        int principalAmount = 300000;
+//
+//        double rateOfInterest = 0.08;
+//
+//        int tenure = 5;
+//
+//        int n = 12;
+//
+//        double amount = principalAmount * Math.pow(1+(rateOfInterest/n),n*tenure);
+//        double interest = amount - principalAmount;
+//
+//        System.out.println("Compound Interest after " + tenure + "years:" + interest);
+//        System.out.println("Total Amount:" + amount );
 
-        double rateOfInterest = 0.08;
 
-        int tenure = 5;
 
-        int n = 12;
+//   Area of circle
 
-        double amount = principalAmount * Math.pow(1+(rateOfInterest/n),n*tenure);
-        double interest = amount - principalAmount;
+//     int radius = 6;
+//
+//     double pi = 3.14;
+//
+//     double area = pi * radius * radius;
+//
+//     System.out.println(" Area of circle:" + area);
 
-        System.out.println("Compound Interest after " + tenure + "years:" + interest);
-        System.out.println("Total Amount:" + amount );
-    }
+//  Average of three
+
+//     int  num1 = 10,num2 = 20,num3 = 30;
+//
+//     int average = (num1 + num2 + num3)/3;
+//
+//     System.out.println("Average: " + average);
+//
+
+//   MAXIMUM OF TWO NUMBERS
+
+//     int a = 30;
+//
+//     int b = 50;
+//
+//     int max = Math.max(a,b);
+//
+//      System.out.println("Maximum number is :"+ max);
+
+//   SWAPPING OF TWO NUMBERS
+//
+//        int a = 7;
+//        int b = 9;
+//        int temp = a;
+//        a = b;
+//        b = temp;
+//        System.out.println("a = " + a);
+//        System.out.println("b = " + b);
+
+
+//   EVEN OR ODD
+
+//      int n = 20;
+//      if (n/2 == 0)
+//        System.out.println(n + " is Even");
+//      else
+//        System.out.println(n + " is Odd");
+
+
+//   check if div by 2 & 3
+
+     int n =  10;
+
+     if (n/2 == 0  && n/3 == 0)
+         System.out.println(n + "is divisible by both 2 and 3");
+     else
+         System.out.println(n + "is not divisible by both 2 and 3 ");
+
+      }
+
     }
