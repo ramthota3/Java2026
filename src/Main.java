@@ -133,7 +133,7 @@ public class Main {
 //   EVEN OR ODD
 
 //      int n = 20;
-//      if (n/2 == 0)
+//      if (n%2 == 0)
 //        System.out.println(n + " is Even");
 //      else
 //        System.out.println(n + " is Odd");
@@ -141,13 +141,55 @@ public class Main {
 
 //   check if div by 2 & 3
 
-     int n =  10;
+//     int n =  10;
+//
+//     if (n % 2 == 0  && n % 3 == 0)
+//         System.out.println(n + "is divisible by both 2 and 3");
+//     else
+//         System.out.println(n + "is not divisible by both 2 and 3 ");
 
-     if (n/2 == 0  && n/3 == 0)
-         System.out.println(n + "is divisible by both 2 and 3");
-     else
-         System.out.println(n + "is not divisible by both 2 and 3 ");
+// check if div by 3 or 7
 
-      }
+//        int n = 14;
+//
+//        if(n%3 == 0 || n%7 == 0)
+//
+//            System.out.println(n + "is divisble by 3 or 7");
+//        else
+//            System.out.println(n + "is not divisible 3 or 7");
+//
+
+//  check if div by 2 but not 5
+
+//      int n = 10;
+//
+//      if(n % 2 == 0 && n % 5 !=0)
+//
+//          System.out.println(n + "is divisible by 2 but not by 5");
+//      else
+//          System.out.println(n + " is either not divisible by 2 or divisible by 5");
+
+
+//   LCM
+
+//       int a = 3, b = 7;
+//
+//       int lcm = ( a > b ) ? a : b;
+//
+//       while (true){
+//           if (lcm % a  == 0 && lcm % b == 0){
+//               System.out.println("LCM of " + a + " and " + b + "is" + lcm);
+//           break;
+//           }
+//           lcm++;
+//       }
+
+
+//   Printing Numbers
+
+      for (int i =1; i <= 10; i++){
+          System.out.println("The numbers are: " + i);
+          }
+       }
 
     }
