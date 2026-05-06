@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 //        String studentName = "Ram";
@@ -106,7 +108,7 @@ public class Main {
 //
 //     int average = (num1 + num2 + num3)/3;
 //
-//     System.out.println("Average: " + average);
+//     System.out.println("Average: " +
 //
 
 //   MAXIMUM OF TWO NUMBERS
@@ -187,9 +189,83 @@ public class Main {
 
 //   Printing Numbers
 
-      for (int i =1; i <= 10; i++){
-          System.out.println("The numbers are: " + i);
-          }
-       }
+//      for (int i =1; i <= 10; i++){
+//          System.out.println("The numbers are: " + i);
+//          }
+//
 
+//    Printing odd numbers
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a number: ");
+//        int number = scanner.nextInt();
+//        int i =1;
+//        while(i <= number){
+//            System.out.println(i);
+//            i += 2;
+//        }
+//        scanner.close();
+
+//    Printing even numbers
+
+//       Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a number: ");
+//        int number = scanner.nextInt();
+//        int i = 2;
+//        while (i <= number){
+//            System.out.println(i);
+//            i +=2;
+//        }
+//        scanner.close();
+
+//     Print numbers from 1 using while loop
+
+//      Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a number: ");
+//        int number = scanner.nextInt();
+//        int i = 1;
+//        while (i <= number){
+//            System.out.println(i);
+//            i++;
+//        }
+//        scanner.close();
+
+//   Print numbers using do while loop
+
+//     Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a number: ");
+//        int number = scanner.nextInt();
+//        int i = 1;
+//        do{
+//            System.out.println(i);
+//            i++;
+//        }
+//        while ( i <= number);
+//        scanner.close();
+
+//      Multiplication table for given num
+
+//       Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter the number: ");
+//        int num = 9;
+//        int i = 1;
+//        while (i <= 10){
+//            System.out.println(num + "*" + i + "=" + (num * i));
+//            i++;
+//         }
+//
+
+//   Sum of digits
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int num = scanner.nextInt();
+        int sum = 0;
+        while (num>0){
+            int digit = num %10;
+            sum = sum+digit;
+            num = num / 10;
+        }
+        System.out.println("Sum of digits = "+ sum);
+       }
     }
