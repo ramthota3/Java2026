@@ -28,7 +28,6 @@ public class Main {
 //        System.out.println("modulus: "+ (a%b));
 
 
-
 //  RELATIONAL OPERATORS
 
 //        int a = 11;
@@ -72,7 +71,6 @@ public class Main {
 //      System.out.println(" Simple Interest :" + simpleInterest);
 
 
-
 // compound interest
 
 
@@ -89,7 +87,6 @@ public class Main {
 //
 //        System.out.println("Compound Interest after " + tenure + "years:" + interest);
 //        System.out.println("Total Amount:" + amount );
-
 
 
 //   Area of circle
@@ -256,16 +253,31 @@ public class Main {
 //
 
 //   Sum of digits
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter the number: ");
+//        int num = scanner.nextInt();
+//        int sum = 0;
+//        while (num>0){
+//            int digit = num %10;
+//            sum = sum+digit;
+//            num = num / 10;
+//        }
+//        System.out.println("Sum of digits = "+ sum);
+//       }
+//    }
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the number: ");
-        int num = scanner.nextInt();
-        int sum = 0;
-        while (num>0){
-            int digit = num %10;
-            sum = sum+digit;
-            num = num / 10;
-        }
-        System.out.println("Sum of digits = "+ sum);
-       }
+
+//  call by value
+
+        int x = 10;
+        System.out.println("Before : " + x);
+        change(x);
+        System.out.println("After : " + x);
     }
+    public static void change(int n){
+    n = 20;}
+}
+
+
+
