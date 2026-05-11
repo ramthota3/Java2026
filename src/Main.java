@@ -253,7 +253,7 @@ public class Main {
 //
 
 //   Sum of digits
-//
+
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.println("Enter the number: ");
 //        int num = scanner.nextInt();
@@ -276,7 +276,8 @@ public class Main {
         System.out.println("After : " + x);
     }
     public static void change(int n){
-    n = 20;}
+    n = 20;
+    }
 }
 
 

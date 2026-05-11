@@ -1,4 +1,4 @@
-public class Uppercase {
+public class UpperCase {
 
     static String convertToUpper(String text) {
         return text.toUpperCase();

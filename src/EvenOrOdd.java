@@ -1,4 +1,4 @@
-public class Evenorodd {
+public class EvenOrOdd {
     static void check(int num) {
 
         if (num % 2 == 0) {
