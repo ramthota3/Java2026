@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+//   public class Main {
+//   public static void main(String[] args) {
 //        String studentName = "Ram";
 //        int studentId = 3;
 //        int studentAge = 27;
@@ -20,7 +20,7 @@ public class Main {
 //   ARTHIMETIC OPERATORS
 //        int a = 4;
 //        int b = 6;
-//
+
 //        System.out.println("Addtion: " + (a+b));
 //        System.out.println("Subtraction: " + (a-b));
 //        System.out.println("Multiplication: "+ (a*b));
@@ -270,15 +270,15 @@ public class Main {
 
 //  call by value
 
-        int x = 10;
-        System.out.println("Before : " + x);
-        change(x);
-        System.out.println("After : " + x);
-    }
-    public static void change(int n){
-    n = 20;
-    }
-}
+//        int x = 10;
+//        System.out.println("Before : " + x);
+//        change(x);
+//        System.out.println("After : " + x);
+//    }
+//    public static void change(int n){
+//    n = 20;
+//    }
+//   }
 
 
 
