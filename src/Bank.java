@@ -18,7 +18,7 @@ class Idbi extends Bank{
         System.out.println(" Idbi provides loan");
     }
 }
-    class Main {
+    class BankDemo {
     public static void main(String[] args){
         Hdfc a = new Hdfc();
         Hsbc b = new Hsbc();

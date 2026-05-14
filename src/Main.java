@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-//   public class Main {
-//   public static void main(String[] args) {
+   public class Main {
+   public static void main(String[] args) {
 //        String studentName = "Ram";
 //        int studentId = 3;
 //        int studentAge = 27;
@@ -60,7 +60,7 @@ import java.util.Scanner;
 //        System.out.println("Maximum value is: " + max);
 
 
-//        calculating the interest
+//       calculating the interest
 
 //      int principalAmount = 500000;
 //
@@ -277,8 +277,8 @@ import java.util.Scanner;
 //    }
 //    public static void change(int n){
 //    n = 20;
-//    }
-//   }
+    }
+   }
 
 
 
