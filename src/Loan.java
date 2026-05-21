@@ -3,7 +3,7 @@ public class Loan {
     double rateOfInterest;
     int tenure;
 
-    Loan(double principalAmount, double rateOfInterest,int tenure){
+    Loan(double principalAmount, double rateOfInterest,int tenure) {
         this.principalAmount = principalAmount;
         this.rateOfInterest = rateOfInterest;
         this.tenure = tenure;
@@ -38,6 +38,7 @@ class EducationLoan extends Loan{
     @Override
     void calculateInterest() {
         double simpleInterest = (principalAmount*rateOfInterest*tenure)/100;
+
         System.out.println("EducationLoan");
         System.out.println("Principal Amount :" + principalAmount);
         System.out.println("Rate of Interest : "+ rateOfInterest);
@@ -61,15 +62,4 @@ class EducationLoan extends Loan{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    

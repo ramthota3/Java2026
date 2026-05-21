@@ -12,7 +12,7 @@ class UpiPayment extends Transaction{
 class CardPayment extends Transaction{
     @Override
     void pay(double amount) {
-        System.out.println("Transaction was                                            made using Card :" + amount);
+        System.out.println("Transaction was made using Card :" + amount);
     }
 }
   class TransactionDemo{

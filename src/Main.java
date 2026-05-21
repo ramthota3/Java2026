@@ -8,8 +8,8 @@ import java.util.Scanner;
 //        float studentFee = 75.25f;
 //        char studentGrade = 'A';
 //        char studentGrades = 'B';
-//
-//
+
+
 //        System.out.println("Student name: "+ studentName);
 //        System.out.println("Student id: "+ studentId);
 //        System.out.println("Student age: "+ studentAge);
@@ -277,7 +277,19 @@ import java.util.Scanner;
 //    }
 //    public static void change(int n){
 //    n = 20;
-    }
+
+       Itransaction it = null;
+       String bank = "Kotak";
+
+       if(bank.equals("Kotak")){
+           it = new Kotak(10000);
+       } else if (bank.equals("JpMorgan")) {
+           it = new JpMorgan(20000);
+       }
+it.deposit(4000);
+       it.withdraw(6000);
+       it.getBalance();
+   }
    }
 
 
