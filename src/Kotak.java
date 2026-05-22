@@ -5,7 +5,10 @@ public class Kotak implements Itransaction{
     }
 
     @Override
-    public void deposit(double amount) {
+    public void deposit(double amount) throws InvalidAmountException{
+        if (amount <= 0){
+            throw new InvalidAmountException("Kotak Invalid deposit amount");
+        }
         if (amount > 0){
             balance += amount;
             System.out.println("Kotak Deposited: " + amount);
@@ -15,7 +18,10 @@ public class Kotak implements Itransaction{
     }
 
     @Override
-    public void withdraw(double amount) {
+    public void withdraw(double amount) throws InvalidAmountException {
+        if (amount <= 0){
+            throw new InvalidAmountException("Kotak Invalid withdrawl amount");
+        }
         if (amount > 0 && amount <= balance){
             balance -= amount;
             System.out.println(" Kotak Withdraw: "+ amount);

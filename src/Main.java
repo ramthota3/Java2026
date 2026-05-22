@@ -278,19 +278,65 @@ import java.util.Scanner;
 //    public static void change(int n){
 //    n = 20;
 
-       Itransaction it = null;
-       String bank = "Kotak";
+//       Itransaction it = null;
+//       String bank = "Kotak";
+//
+//       if(bank.equals("Kotak")){
+//           it = new Kotak(10000);
+//       } else if (bank.equals("JpMorgan")) {
+//           it = new JpMorgan(20000);
+//       }
+//it.deposit(4000);
+//       it.withdraw(6000);
+//       it.getBalance();
+//   }
+//   }
 
-       if(bank.equals("Kotak")){
-           it = new Kotak(10000);
-       } else if (bank.equals("JpMorgan")) {
-           it = new JpMorgan(20000);
+
+   Itransaction it = null;
+   String bank = "Kotak";
+
+       it = getItransaction(bank, it);
+       try {
+           it.deposit(-4000);
+           it.withdraw(6000);
+           it.getBalance();
+       } catch (InvalidAmountException e) {
+           System.out.println(e.getMessage());;
        }
-it.deposit(4000);
-       it.withdraw(6000);
-       it.getBalance();
    }
+
+       private static Itransaction getItransaction(String bank, Itransaction it) {
+           if(bank.equals("Kotak")){
+       it = new Kotak(10000);
+           } else if (bank.equals("JpMorgan")) {
+       it = new JpMorgan(20000);
+           }
+           return it;
+       }
+
    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
