@@ -1,7 +1,7 @@
-import java.util.Scanner;
+import java.util.*;
 
-   public class Main {
-   public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
 //        String studentName = "Ram";
 //        int studentId = 3;
 //        int studentAge = 27;
@@ -278,6 +278,7 @@ import java.util.Scanner;
 //    public static void change(int n){
 //    n = 20;
 
+
 //       Itransaction it = null;
 //       String bank = "Kotak";
 //
@@ -292,31 +293,77 @@ import java.util.Scanner;
 //   }
 //   }
 
+// custom exception
 
-   Itransaction it = null;
-   String bank = "Kotak";
 
-       it = getItransaction(bank, it);
-       try {
-           it.deposit(-4000);
-           it.withdraw(6000);
-           it.getBalance();
-       } catch (InvalidAmountException e) {
-           System.out.println(e.getMessage());;
-       }
-   }
+//   Itransaction it = null;
+//   String bank = "Kotak";
+//
+//       it = getItransaction(bank, it);
+//       try {
+//           it.deposit(-4000);
+//           it.withdraw(6000);
+//           it.getBalance();
+//       } catch (InvalidAmountException e) {
+//           System.out.println("Custom Exception : " + e.getMessage());;
+//       }
+//   }
+//
+//       private static Itransaction getItransaction(String bank, Itransaction it) {
+//           if(bank.equals("Kotak")){
+//       it = new Kotak(10000);
+//           } else if (bank.equals("JpMorgan")) {
+//       it = new JpMorgan(20000);
+//           }
+//           return it;
+//       }
+//
+//   }
 
-       private static Itransaction getItransaction(String bank, Itransaction it) {
-           if(bank.equals("Kotak")){
-       it = new Kotak(10000);
-           } else if (bank.equals("JpMorgan")) {
-       it = new JpMorgan(20000);
-           }
-           return it;
-       }
 
-   }
+//  ARRAY LIST
+//           ArrayList<String> cars = new ArrayList<String>();
+//           cars.add("PAGANI");
+//           cars.add("ASTON MARTIN");
+//           cars.add("BUGGATI");
+//           cars.add("KOENIESEGG");
+//           cars.add("LA FERRARI");
+//           System.out.println(cars);
+//       }
+//   }
 
+
+//  HASH SET
+//        HashSet<String> cars = new HashSet<String>();
+//        cars.add("PAGANI");
+//        cars.add("ASTON MARTIN");
+//        cars.add("BUGGATI");
+//        cars.add("KOENIESEGG");
+//        cars.add("LA FERRARI");
+//        cars.add("BUGGATI");
+//        System.out.println(cars);
+//        }
+//   }
+
+
+//  HASH MAP
+//           HashMap<String, String> clothingBrands = new HashMap<String, String>();
+//           clothingBrands.put("LoroPiana ", "Italy");
+//           clothingBrands.put("BrunelloCucinelli", "Italy");
+//           clothingBrands.put("Hermès", "France");
+//           clothingBrands.put("TheRow", "Usa");
+//           System.out.println(clothingBrands);
+//       }
+//   }
+
+
+        ArrayList<String> cars = new ArrayList<>();
+        cars.add("Porsche");
+        cars.add("bmw");
+        cars.add("audi");
+        System.out.println(cars);
+    }
+}
 
 
 
