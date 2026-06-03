@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.function.BiConsumer;
+import java.util.function.BiPredicate;
 
 public class Main {
     public static void main(String[] args) {
@@ -356,14 +358,29 @@ public class Main {
 //       }
 //   }
 
+//
+//        ArrayList<String> cars = new ArrayList<>();
+//        cars.add("Porsche");
+//        cars.add("bmw");
+//        cars.add("audi");
+//        System.out.println(cars);
+//    }
+//}
 
-        ArrayList<String> cars = new ArrayList<>();
-        cars.add("Porsche");
-        cars.add("bmw");
-        cars.add("audi");
-        System.out.println(cars);
+
+//        BiPredicate<String, Integer> longerThan = (s, n) -> s.length() > n;
+//        System.out.println( longerThan.test("Hello", 2));
+//        System.out.println(longerThan.test("Man", 8));
+//
+//    }
+//}
+
+        BiConsumer<String, Integer> printRepeat = (s, n) -> System.out.println(s.repeat(n));
+        printRepeat.accept("Hello", 5);
+
     }
 }
+
 
 
 
